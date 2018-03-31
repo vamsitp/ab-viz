@@ -373,7 +373,6 @@
             // 
             // txtHeaders
             // 
-            this.txtHeaders.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtHeaders.Location = new System.Drawing.Point(141, 306);
             this.txtHeaders.Multiline = true;
             this.txtHeaders.Name = "txtHeaders";
@@ -383,7 +382,6 @@
             // 
             // txtCookies
             // 
-            this.txtCookies.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCookies.Location = new System.Drawing.Point(141, 254);
             this.txtCookies.Multiline = true;
             this.txtCookies.Name = "txtCookies";
