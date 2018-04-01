@@ -252,6 +252,9 @@ namespace ab_viz
 
             ToggleControls();
             StartBenchmark();
+
+            // chartRequests.Series.ToList().ForEach(x => x.Font = new Font("Consolas", 8));
+            // chartRequestDistribution.Series.ToList().ForEach(x => x.Font = new Font("Consolas", 8));
         }
 
         private void StartBenchmark()

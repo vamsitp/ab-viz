@@ -24,18 +24,18 @@
         /// </summary>
         private void InitializeComponent() {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series13 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series14 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series15 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series16 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series17 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series18 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.label1 = new System.Windows.Forms.Label();
             this.cboAddress = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -648,7 +648,7 @@
             this.numConcurrency.Size = new System.Drawing.Size(162, 20);
             this.numConcurrency.TabIndex = 9;
             this.numConcurrency.Value = new decimal(new int[] {
-            1,
+            5,
             0,
             0,
             0});
@@ -679,7 +679,7 @@
             this.numRequests.Size = new System.Drawing.Size(162, 20);
             this.numRequests.TabIndex = 7;
             this.numRequests.Value = new decimal(new int[] {
-            10,
+            20,
             0,
             0,
             0});
@@ -802,43 +802,43 @@
             this.chartPercentageSummary.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            chartArea7.AxisX.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
-            chartArea7.AxisX.MajorGrid.LineColor = System.Drawing.Color.DarkGray;
-            chartArea7.AxisX.Maximum = 100D;
-            chartArea7.AxisX.Minimum = 0D;
-            chartArea7.AxisX.MinorGrid.Enabled = true;
-            chartArea7.AxisX.MinorGrid.LineColor = System.Drawing.Color.LightGray;
-            chartArea7.AxisX.MinorTickMark.Enabled = true;
-            chartArea7.AxisX.MinorTickMark.LineColor = System.Drawing.Color.LightGray;
-            chartArea7.AxisX.Title = "Request Percentage (%)";
-            chartArea7.AxisX.TitleFont = new System.Drawing.Font("Consolas", 8.25F);
-            chartArea7.AxisY.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
-            chartArea7.AxisY.MajorGrid.LineColor = System.Drawing.Color.DarkGray;
-            chartArea7.AxisY.MinorGrid.Enabled = true;
-            chartArea7.AxisY.MinorGrid.LineColor = System.Drawing.Color.LightGray;
-            chartArea7.AxisY.MinorTickMark.Enabled = true;
-            chartArea7.AxisY.MinorTickMark.LineColor = System.Drawing.Color.LightGray;
-            chartArea7.AxisY.Title = "Response (ms)";
-            chartArea7.Name = "ChartArea1";
-            this.chartPercentageSummary.ChartAreas.Add(chartArea7);
-            legend7.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend7.Font = new System.Drawing.Font("Consolas", 8.25F);
-            legend7.IsTextAutoFit = false;
-            legend7.LegendStyle = System.Windows.Forms.DataVisualization.Charting.LegendStyle.Row;
-            legend7.Name = "Legend1";
-            legend7.TableStyle = System.Windows.Forms.DataVisualization.Charting.LegendTableStyle.Wide;
-            legend7.TitleFont = new System.Drawing.Font("Consolas", 8.25F);
-            this.chartPercentageSummary.Legends.Add(legend7);
+            chartArea1.AxisX.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
+            chartArea1.AxisX.MajorGrid.LineColor = System.Drawing.Color.DarkGray;
+            chartArea1.AxisX.Maximum = 100D;
+            chartArea1.AxisX.Minimum = 0D;
+            chartArea1.AxisX.MinorGrid.Enabled = true;
+            chartArea1.AxisX.MinorGrid.LineColor = System.Drawing.Color.LightGray;
+            chartArea1.AxisX.MinorTickMark.Enabled = true;
+            chartArea1.AxisX.MinorTickMark.LineColor = System.Drawing.Color.LightGray;
+            chartArea1.AxisX.Title = "Request Percentage (%)";
+            chartArea1.AxisX.TitleFont = new System.Drawing.Font("Consolas", 8.25F);
+            chartArea1.AxisY.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
+            chartArea1.AxisY.MajorGrid.LineColor = System.Drawing.Color.DarkGray;
+            chartArea1.AxisY.MinorGrid.Enabled = true;
+            chartArea1.AxisY.MinorGrid.LineColor = System.Drawing.Color.LightGray;
+            chartArea1.AxisY.MinorTickMark.Enabled = true;
+            chartArea1.AxisY.MinorTickMark.LineColor = System.Drawing.Color.LightGray;
+            chartArea1.AxisY.Title = "Response (ms)";
+            chartArea1.Name = "ChartArea1";
+            this.chartPercentageSummary.ChartAreas.Add(chartArea1);
+            legend1.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend1.Font = new System.Drawing.Font("Consolas", 8.25F);
+            legend1.IsTextAutoFit = false;
+            legend1.LegendStyle = System.Windows.Forms.DataVisualization.Charting.LegendStyle.Row;
+            legend1.Name = "Legend1";
+            legend1.TableStyle = System.Windows.Forms.DataVisualization.Charting.LegendTableStyle.Wide;
+            legend1.TitleFont = new System.Drawing.Font("Consolas", 8.25F);
+            this.chartPercentageSummary.Legends.Add(legend1);
             this.chartPercentageSummary.Location = new System.Drawing.Point(6, 6);
             this.chartPercentageSummary.Name = "chartPercentageSummary";
-            series13.BorderWidth = 2;
-            series13.ChartArea = "ChartArea1";
-            series13.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series13.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            series13.Legend = "Legend1";
-            series13.Name = "Response";
-            this.chartPercentageSummary.Series.Add(series13);
-            this.chartPercentageSummary.Size = new System.Drawing.Size(595, 573);
+            series1.BorderWidth = 2;
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            series1.Legend = "Legend1";
+            series1.Name = "Response";
+            this.chartPercentageSummary.Series.Add(series1);
+            this.chartPercentageSummary.Size = new System.Drawing.Size(595, 456);
             this.chartPercentageSummary.TabIndex = 0;
             // 
             // tabPage4
@@ -857,30 +857,30 @@
             this.chartRequests.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            chartArea8.AxisX.MinorGrid.Enabled = true;
-            chartArea8.AxisX.MinorGrid.LineColor = System.Drawing.Color.LightGray;
-            chartArea8.AxisX.MinorTickMark.Enabled = true;
-            chartArea8.AxisX.TitleFont = new System.Drawing.Font("Consolas", 8.25F);
-            chartArea8.AxisY.MinorGrid.Enabled = true;
-            chartArea8.AxisY.MinorGrid.LineColor = System.Drawing.Color.LightGray;
-            chartArea8.AxisY.MinorTickMark.Enabled = true;
-            chartArea8.Name = "ChartArea1";
-            this.chartRequests.ChartAreas.Add(chartArea8);
-            legend8.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend8.Font = new System.Drawing.Font("Consolas", 8.25F);
-            legend8.IsTextAutoFit = false;
-            legend8.Name = "Legend1";
-            legend8.TitleFont = new System.Drawing.Font("Consolas", 8.25F);
-            this.chartRequests.Legends.Add(legend8);
+            chartArea2.AxisX.MinorGrid.Enabled = true;
+            chartArea2.AxisX.MinorGrid.LineColor = System.Drawing.Color.LightGray;
+            chartArea2.AxisX.MinorTickMark.Enabled = true;
+            chartArea2.AxisX.TitleFont = new System.Drawing.Font("Consolas", 8.25F);
+            chartArea2.AxisY.MinorGrid.Enabled = true;
+            chartArea2.AxisY.MinorGrid.LineColor = System.Drawing.Color.LightGray;
+            chartArea2.AxisY.MinorTickMark.Enabled = true;
+            chartArea2.Name = "ChartArea1";
+            this.chartRequests.ChartAreas.Add(chartArea2);
+            legend2.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend2.Font = new System.Drawing.Font("Consolas", 8.25F);
+            legend2.IsTextAutoFit = false;
+            legend2.Name = "Legend1";
+            legend2.TitleFont = new System.Drawing.Font("Consolas", 8.25F);
+            this.chartRequests.Legends.Add(legend2);
             this.chartRequests.Location = new System.Drawing.Point(0, 3);
             this.chartRequests.Name = "chartRequests";
-            series14.ChartArea = "ChartArea1";
-            series14.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series14.Font = new System.Drawing.Font("Consolas", 8.25F);
-            series14.Legend = "Legend1";
-            series14.Name = "Series1";
-            this.chartRequests.Series.Add(series14);
-            this.chartRequests.Size = new System.Drawing.Size(611, 579);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series2.Font = new System.Drawing.Font("Consolas", 8.25F);
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chartRequests.Series.Add(series2);
+            this.chartRequests.Size = new System.Drawing.Size(611, 462);
             this.chartRequests.TabIndex = 0;
             this.chartRequests.Text = "chart1";
             // 
@@ -899,58 +899,58 @@
             this.chartRequestDistribution.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            chartArea9.AxisX.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
-            chartArea9.AxisX.MajorGrid.LineColor = System.Drawing.Color.DarkGray;
-            chartArea9.AxisX.MinorGrid.Enabled = true;
-            chartArea9.AxisX.MinorGrid.LineColor = System.Drawing.Color.LightGray;
-            chartArea9.AxisX.MinorTickMark.Enabled = true;
-            chartArea9.AxisX.MinorTickMark.LineColor = System.Drawing.Color.LightGray;
-            chartArea9.AxisX.Title = "Requests";
-            chartArea9.AxisX.TitleFont = new System.Drawing.Font("Consolas", 8.25F);
-            chartArea9.AxisY.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
-            chartArea9.AxisY.MajorGrid.LineColor = System.Drawing.Color.DarkGray;
-            chartArea9.AxisY.MinorGrid.Enabled = true;
-            chartArea9.AxisY.MinorGrid.LineColor = System.Drawing.Color.LightGray;
-            chartArea9.AxisY.MinorTickMark.Enabled = true;
-            chartArea9.AxisY.MinorTickMark.LineColor = System.Drawing.Color.LightGray;
-            chartArea9.AxisY.Title = "Response (ms)";
-            chartArea9.Name = "ChartArea1";
-            this.chartRequestDistribution.ChartAreas.Add(chartArea9);
-            legend9.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend9.Font = new System.Drawing.Font("Consolas", 8.25F);
-            legend9.IsTextAutoFit = false;
-            legend9.LegendStyle = System.Windows.Forms.DataVisualization.Charting.LegendStyle.Row;
-            legend9.Name = "Legend1";
-            legend9.TableStyle = System.Windows.Forms.DataVisualization.Charting.LegendTableStyle.Wide;
-            legend9.TitleFont = new System.Drawing.Font("Consolas", 8.25F);
-            this.chartRequestDistribution.Legends.Add(legend9);
+            chartArea3.AxisX.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
+            chartArea3.AxisX.MajorGrid.LineColor = System.Drawing.Color.DarkGray;
+            chartArea3.AxisX.MinorGrid.Enabled = true;
+            chartArea3.AxisX.MinorGrid.LineColor = System.Drawing.Color.LightGray;
+            chartArea3.AxisX.MinorTickMark.Enabled = true;
+            chartArea3.AxisX.MinorTickMark.LineColor = System.Drawing.Color.LightGray;
+            chartArea3.AxisX.Title = "Requests";
+            chartArea3.AxisX.TitleFont = new System.Drawing.Font("Consolas", 8.25F);
+            chartArea3.AxisY.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
+            chartArea3.AxisY.MajorGrid.LineColor = System.Drawing.Color.DarkGray;
+            chartArea3.AxisY.MinorGrid.Enabled = true;
+            chartArea3.AxisY.MinorGrid.LineColor = System.Drawing.Color.LightGray;
+            chartArea3.AxisY.MinorTickMark.Enabled = true;
+            chartArea3.AxisY.MinorTickMark.LineColor = System.Drawing.Color.LightGray;
+            chartArea3.AxisY.Title = "Response (ms)";
+            chartArea3.Name = "ChartArea1";
+            this.chartRequestDistribution.ChartAreas.Add(chartArea3);
+            legend3.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend3.Font = new System.Drawing.Font("Consolas", 8.25F);
+            legend3.IsTextAutoFit = false;
+            legend3.LegendStyle = System.Windows.Forms.DataVisualization.Charting.LegendStyle.Row;
+            legend3.Name = "Legend1";
+            legend3.TableStyle = System.Windows.Forms.DataVisualization.Charting.LegendTableStyle.Wide;
+            legend3.TitleFont = new System.Drawing.Font("Consolas", 8.25F);
+            this.chartRequestDistribution.Legends.Add(legend3);
             this.chartRequestDistribution.Location = new System.Drawing.Point(-4, 0);
             this.chartRequestDistribution.Name = "chartRequestDistribution";
-            series15.ChartArea = "ChartArea1";
-            series15.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series15.Font = new System.Drawing.Font("Consolas", 8.25F);
-            series15.Legend = "Legend1";
-            series15.Name = "ctime";
-            series16.ChartArea = "ChartArea1";
-            series16.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series16.Font = new System.Drawing.Font("Consolas", 8.25F);
-            series16.Legend = "Legend1";
-            series16.Name = "dtime";
-            series17.ChartArea = "ChartArea1";
-            series17.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series17.Font = new System.Drawing.Font("Consolas", 8.25F);
-            series17.Legend = "Legend1";
-            series17.Name = "ttime";
-            series18.ChartArea = "ChartArea1";
-            series18.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series18.Font = new System.Drawing.Font("Consolas", 8.25F);
-            series18.Legend = "Legend1";
-            series18.Name = "wait";
-            this.chartRequestDistribution.Series.Add(series15);
-            this.chartRequestDistribution.Series.Add(series16);
-            this.chartRequestDistribution.Series.Add(series17);
-            this.chartRequestDistribution.Series.Add(series18);
-            this.chartRequestDistribution.Size = new System.Drawing.Size(615, 586);
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series3.Font = new System.Drawing.Font("Consolas", 8.25F);
+            series3.Legend = "Legend1";
+            series3.Name = "ctime";
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series4.Font = new System.Drawing.Font("Consolas", 8.25F);
+            series4.Legend = "Legend1";
+            series4.Name = "dtime";
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series5.Font = new System.Drawing.Font("Consolas", 8.25F);
+            series5.Legend = "Legend1";
+            series5.Name = "ttime";
+            series6.ChartArea = "ChartArea1";
+            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series6.Font = new System.Drawing.Font("Consolas", 8.25F);
+            series6.Legend = "Legend1";
+            series6.Name = "wait";
+            this.chartRequestDistribution.Series.Add(series3);
+            this.chartRequestDistribution.Series.Add(series4);
+            this.chartRequestDistribution.Series.Add(series5);
+            this.chartRequestDistribution.Series.Add(series6);
+            this.chartRequestDistribution.Size = new System.Drawing.Size(615, 468);
             this.chartRequestDistribution.TabIndex = 0;
             // 
             // chkSeries
